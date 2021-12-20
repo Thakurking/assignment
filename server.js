@@ -2,6 +2,7 @@ const express = require("express");
 const compression = require("compression")
 
 const mongoose = require("mongoose");
+require('dotenv').config()
 
 const app = express();
 
@@ -34,3 +35,4 @@ process.on("SIGTERM", () => {
     console.log("Process terminated");
   });
 });
+// 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
